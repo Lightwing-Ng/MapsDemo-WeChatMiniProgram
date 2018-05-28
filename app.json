@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/map/map",
+        "pages/location/location",
+        "pages/logs/logs"
+    ],
+    "tabBar": {
+        "color": "#DDDDDD",
+        "selectedColor": "#3CC51F",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "image/wechatHL.png",
+                "selectedIconPath": "image/wechatHL.png",
+                "text": "Home"
+            },
+            {
+                "pagePath": "pages/map/map",
+                "iconPath": "image/map.png",
+                "selectedIconPath": "image/map_active.png",
+                "text": "Mpas"
+            },
+            {
+                "pagePath": "pages/location/location",
+                "iconPath": "image/locate.png",
+                "selectedIconPath": "image/locateHL.png",
+                "text": "Navigation"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "iconPath": "image/others.png",
+                "selectedIconPath": "image/others.png",
+                "text": "Others"
+            }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Map",
+        "navigationBarTextStyle": "black"
+    },
+    "debug": true
+}

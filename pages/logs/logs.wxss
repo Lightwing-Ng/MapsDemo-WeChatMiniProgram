@@ -1,0 +1,15 @@
+.project-list {
+    display: flex;
+    flex-direction: column;
+    padding: 40 rpx;
+}
+
+.project-item {
+    margin: 10 rpx 0 0 5 rpx;
+}
+
+.log-item {
+    font-size: 28 rpx;
+    color: #0079C0;
+    margin: 10 rpx;
+}

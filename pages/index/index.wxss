@@ -1,0 +1,32 @@
+/**index.wxss**/
+
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appInfo {
+    width: 300 rpx;
+    height: 300 rpx;
+    border-radius: 50%;
+}
+
+.userinfo-avatar {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    border: solid 1px #555;
+}
+
+.userinfo-nickname {
+    font-size: 1.2em;
+}
+
+.usermotto {
+    margin-top: 200px;
+    font-family: Courier New, Courier, monospace;
+    font: bold;
+}
+
